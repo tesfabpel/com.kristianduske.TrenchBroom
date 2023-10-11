@@ -1,0 +1,112 @@
+[
+    {
+        "type": "file",
+        "url": "https://github.com/microsoft/vcpkg-tool/archive/2022-10-17.tar.gz",
+        "sha256": "04662d6185276ff8f0f8d4ebb7e369db0ff3249ce4a0720b335355d9f7407072",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "2022-10-17.tar.gz"
+    },
+    {
+        "type": "patch",
+        "path": "vcpkg-bootstrap.patch",
+        "strip-components": 0
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/fmtlib/fmt/archive/refs/tags/9.1.0.tar.gz",
+        "sha512": "a18442042722dd48e20714ec034a12fcc0576c9af7be5188586970e2edf47529825bdc99af366b1d5891630c8dbf6f63bfa9f012e77ab3d3ed80d1a118e3b2be",
+        "dest": "vcpkg/buildtrees/_vcpkg/build/_deps/fmt-subbuild/fmt-populate-prefix/src",
+        "dest-filename": "9.1.0.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/madler/zlib/archive/v1.2.12.tar.gz",
+        "sha512": "5b029532a9f5f12ad425c12eccdf1b77c8d91801342c5b5e26ffb539f76a204e6c4882b40f0130f143f2cd38df90e90af2978cf4bb997e1fa3a0d1eff2ca979e",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "madler-zlib-v1.2.12.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/nemtrif/utfcpp/archive/v3.2.1.tar.gz",
+        "sha512": "5798487f12b1bc55d3e06aed38f7604271ca3402963efcf85d181fd590d8a088d21e961e77698e60dc2cdae8cf4506645903442c45fd328201752d9589180e0d",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "nemtrif-utfcpp-v3.2.1.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/nothings/stb/archive/af1a5bc352164740c1cc1354942b1c6b72eacb8a.tar.gz",
+        "sha512": "5937baa1a9b7342ddc0e41c37ba0ea6b0c878f670a81b55bb124681e6b5e381fdc1d9557c96637e3ba082d6d968ed67a78b47f16aa5555c1c43394d1f9e57f2d",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "nothings-stb-af1a5bc352164740c1cc1354942b1c6b72eacb8a.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/Tencent/rapidjson/archive/232389d4f1012dddec4ef84861face2d2ba85709.tar.gz",
+        "sha512": "0d7d751179abdaa6ebf6167d522651a2d13bc024d20c7e3f775c7397a8aab4cd866a6c91a55521ad7847e910822fcf982625c7308c74f5df663e6fd81336c9fc",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "Tencent-rapidjson-232389d4f1012dddec4ef84861face2d2ba85709-2.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/zeux/pugixml/archive/v1.12.1.tar.gz",
+        "sha512": "c1a80518e8d7b21f2a15b2023b77e87484f5b7581e68ff508785a60cab53d1689b5508f5a652d6f0d4fbcc91f66d59246fdfe499fd6b0e188c7914ed5919980b",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "zeux-pugixml-v1.12.1.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/greenm01/poly2tri/archive/88de49021b6d9bef6faa1bc94ceb3fbd85c3c204.tar.gz",
+        "sha512": "fa256bcf923ad59f42205edf5a7e07cac6cbd9a37cefb9a0961a2e06aea7fa8ffd09d4e26154c0028601c12804483842cb935d9f602385f5f203c9628382c4fb",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "greenm01-poly2tri-88de49021b6d9bef6faa1bc94ceb3fbd85c3c204.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/madler/zlib/archive/v1.2.11.tar.gz",
+        "sha512": "104c62ed1228b5f1199bc037081861576900eb0697a226cafa62a35c4c890b5cb46622e399f9aad82ee5dfb475bae26ae75e2bd6da3d261361b1c8b996970faf",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "madler-zlib-v1.2.11.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/kuba--/zip/archive/96924c94dabe362bbb1588aa70209e638e6fb35c.tar.gz",
+        "sha512": "bc3e9ecf39d54321314d09209f356a2491893591a016b1619abcdea8c1fb1fa8ba1f9858f4e758641df083ed237a2ec9f0af13e0f1d802502257644168ae8907",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "kuba---zip-96924c94dabe362bbb1588aa70209e638e6fb35c.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/google/draco/archive/bd1e8de7dd0596c2cbe5929cbe1f5d2257cd33db.tar.gz",
+        "sha512": "6ae7e72a9f6f55563f8f612084d38bff1d2e10934fa84aad59538d323e59d205764ed364c753a55d80e9ffc7c17f542f6475b3f922edcb9085cbd83a942759d0",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "google-draco-bd1e8de7dd0596c2cbe5929cbe1f5d2257cd33db.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/assimp/assimp/archive/v5.2.4.tar.gz",
+        "sha512": "ee988b1806b46c78f97bb5b25237a3f56a7028ed37898fb9b243e379e29e8bfd29e4dffc616566941ed9bdcf502bd30568904ad2ef2ef7d0f63b40daefdc66bf",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "assimp-assimp-v5.2.4.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/catchorg/Catch2/archive/v2.13.8.tar.gz",
+        "sha512": "68a45efa47beb3c85d2d7b8a8eba89b8ec1664b4a72bb223227fef1632778aeaf5cf5cc09f40e47aef50426c8661c7d6a69c2dab0b88fbbf7d9a6b2974d6e32e",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "catchorg-Catch2-v2.13.8.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/fmtlib/fmt/archive/8.1.1.tar.gz",
+        "sha512": "794a47d7cb352a2a9f2c050a60a46b002e4157e5ad23e15a5afc668e852b1e1847aeee3cda79e266c789ff79310d792060c94976ceef6352e322d60b94e23189",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "fmtlib-fmt-8.1.1.tar.gz"
+    },
+    {
+        "type": "file",
+        "url": "https://github.com/richgel999/miniz/archive/2.2.0.tar.gz",
+        "sha512": "0bb2b0ac627715b90ff9fd69ca8958a0bea387bd7ddf5c200daba953b98ef788092e3009842f4f123234e85570159250c8897a30c1c1f2d4dea9bca9837f6111",
+        "dest": "vcpkg/downloads",
+        "dest-filename": "richgel999-miniz-2.2.0.tar.gz"
+    }
+]

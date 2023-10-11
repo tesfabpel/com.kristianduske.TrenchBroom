@@ -1,0 +1,20 @@
+--- ./vcpkg/scripts/bootstrap.sh	2023-10-11 17:57:06.186680307 +0200
++++ ./vcpkg/scripts/bootstrap.sh	2023-10-11 17:53:46.669847131 +0200
+@@ -191,6 +191,9 @@
+     mv "$toPath.partial" "$toPath"
+ }
+ 
++vcpkgDownloadTool="OFF"
++vcpkgToolReleaseSha="b12493472403d0fe9fe5df0b1c7387f55ac6f7830117098f17b084a2aca5db3a11c8f862e9fdf158c6514d7f84fdb0b1ceb4a7397865299e6826129fd2eb6b65"
++
+ if [ "$vcpkgDownloadTool" = "ON" ]; then
+     vcpkgDownloadFile "https://github.com/microsoft/vcpkg-tool/releases/download/$vcpkgToolReleaseTag/$vcpkgToolName" "$vcpkgRootDir/vcpkg" $vcpkgToolReleaseSha
+ else
+@@ -231,7 +234,6 @@
+     fi
+ 
+     echo "Building vcpkg-tool..."
+-    rm -rf "$baseBuildDir"
+     mkdir -p "$buildDir"
+     vcpkgExtractTar "$tarballPath" "$srcBaseDir"
+     cmakeConfigOptions="-DCMAKE_BUILD_TYPE=Release -G 'Ninja' -DVCPKG_DEVELOPMENT_WARNINGS=OFF"
